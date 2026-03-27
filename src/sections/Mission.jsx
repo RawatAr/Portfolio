@@ -25,11 +25,8 @@ export default function Mission() {
             <img
               src={myImg}
               alt="Aryan Rawat"
-              className="w-full h-full object-contain grayscale contrast-[1.1] brightness-90 transition-transform duration-1000 group-hover:scale-105"
+              className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
             />
-            {/* Pink overlay to create the duo-tone pink/black aesthetic */}
-            <div className="absolute inset-0 bg-pink-500 mix-blend-multiply opacity-50 pointer-events-none transition-opacity duration-700 group-hover:opacity-30" />
-            <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors duration-700 pointer-events-none" />
 
             {/* Corner accents */}
             <div className="absolute top-6 left-6 w-2.5 h-2.5 rounded-full bg-pink-500 shadow-[0_0_15px_rgba(236,72,153,0.8)]" />
