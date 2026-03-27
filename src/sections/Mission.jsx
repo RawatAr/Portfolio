@@ -1,8 +1,7 @@
 import { motion } from 'framer-motion';
 import ScrollReveal from '../components/ui/ScrollReveal';
 
-// Using a placeholder image until the real photo is uploaded
-const myImg = "https://ui-avatars.com/api/?name=Aryan+Rawat&size=512&background=random";
+import myImg from '../images/myimg.jpg';
 
 export default function Mission() {
   return (
